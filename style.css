@@ -77,7 +77,6 @@ h1 {
     order: 1;
     height: 100%;
     max-width:max-content;
-    /* background-image: url(assets/smartphone.jpg); */
 }
 
 img {
@@ -111,7 +110,6 @@ form {
 }
 
 label {
-    /* font-size: 1rem; */
     color: white;
     margin: 1em;
 }

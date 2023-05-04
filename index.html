@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16"  href="/assets/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+
+    <section class="main-flex-container clearfix">
+        <!--Image-->
+        <div class="image-flex-container">
+            <img src="assets/smartphone.jpg" alt="smartphone">
+        </div>
+        <!--Formulaire-->
+        <div class="form-flex-container">
+            <form method="get" action="index.html">
+
+                <label for="nom">Nom : </label>
+                <input type="text" name="nom" id="nom" placeholder="Nom">
+        
+                <label for="prenom">Prénom : </label>
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+        
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                
+                <label for="password">Mot de passe : </label>
+                <input type="password" name="password" id="password" placeholder="Mot de passe">
+        
+                <label for="question">Votre question concerne : </label>
+                <select name="question" id="question">
+                    <option value="compta">Comptabilité</option>
+                    <option value="bug">Bug</option>
+                    <option value="contact">Contact</option>
+                </select>
+        
+                <label for="info">Informations supplémentaires :</label>
+                <textarea name="info" id="info" placeholder="Votre message"></textarea>
+        
+                <input type="submit" value="Envoyer">
+        
+            </form>
+            <footer>
+                Crédits image : Photo de <a href="https://unsplash.com/@rishmalho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rishabh Malhotra</a> sur <a href="https://unsplash.com/fr/photos/83ypHTv6J2M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>
